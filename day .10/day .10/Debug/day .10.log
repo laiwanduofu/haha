@@ -1,0 +1,16 @@
+﻿生成启动时间为 2019/5/27 20:30:19。
+     1>项目“D:\c++wenjian\day .10\day .10\day .10.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\vs2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt zuoye.c
+         zuoye.c
+     1>d:\c++wenjian\day .10\day .10\zuoye.c(26): warning C4013: “count_one_bits”未定义；假设外部返回 int
+     1>d:\c++wenjian\day .10\day .10\zuoye.c(47): error C2084: 函数“int main()”已有主体
+                 d:\c++wenjian\day .10\day .10\zuoye.c(20) : 参见“main”的前一个定义
+     1>d:\c++wenjian\day .10\day .10\zuoye.c(79): error C2084: 函数“void dayin(unsigned int)”已有主体
+                 d:\c++wenjian\day .10\day .10\zuoye.c(58) : 参见“dayin”的前一个定义
+     1>d:\c++wenjian\day .10\day .10\zuoye.c(114): warning C4020: “dayin”: 实参太多
+     1>已完成生成项目“D:\c++wenjian\day .10\day .10\day .10.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.18
