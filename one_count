@@ -1,0 +1,29 @@
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+int main()
+{
+  int n=534;
+  int wight=0;
+  int round=n;
+  int count=0;
+  int base=1;
+  while(round>0)
+  {
+    wight=round%10;
+    round=round/10;
+    count=round*base;
+    if(wight==1)
+    {
+      count+=1+(n%base);
+    }
+    if(wight>1)
+    {
+      count+=base;
+    }
+    base*=10;
+  }
+  printf("%d\n",count);
+  return 0;
+}
+
